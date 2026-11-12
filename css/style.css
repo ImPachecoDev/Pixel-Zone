@@ -44,3 +44,30 @@
     padding: 20px;
     border-radius: 10px;
 }
+
+@media screen and (min-width: 768px) {
+    .site-header h2 {
+    font-size: 40px;
+}
+.site-header nav{
+    gap: 100px;
+}
+.site-header a{
+    padding: 20px;
+    font-size: 20px;
+}
+.img-hero {
+  height: 768px;
+  background-image: url(../img/fliperama-tablet.jpg);
+}
+.hero h2{
+    font-size: 40px;
+}
+.hero h3{ 
+    font-size: 27px;
+}
+.button{
+    padding: 30px 70px;
+    font-size: 25px;
+}
+}
