@@ -1,0 +1,17 @@
+@import url(global.css);
+
+.site-header{
+    background-color: black;
+    color:rgb(6, 198, 236)
+}
+.site-header .logo{
+    width: 100%;
+}
+.site-header h2{
+    text-align: center;
+    font-size: 25px;
+}
+.site-header nav{
+    text-align: center;
+    
+}
