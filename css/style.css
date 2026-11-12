@@ -12,6 +12,89 @@
     font-size: 25px;
 }
 .site-header nav{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+.site-header a{
+    margin: 5px;
+}
+.img-hero {
+  height: 400px;
+  width: 100%;
+  background-image: url(../img/fliperama-hero.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.hero{
+    color: aliceblue;
     text-align: center;
-    
+}
+.hero h2{
+    margin: 20px;
+    font-size: 25px;
+}
+.hero h3{ 
+    margin: 0 20px 50px;
+    font-size: 20px;
+}
+.button{
+    color: black;
+    background-color: rgb(6, 198, 236);
+    padding: 20px;
+    border-radius: 10px;
+}
+.button:hover {
+    background-color: aliceblue;
+}
+
+@media screen and (min-width: 768px) {
+    .site-header h2 {
+    font-size: 40px;
+}
+.site-header nav{
+    gap: 100px;
+}
+.site-header a{
+    padding: 20px;
+    font-size: 20px;
+}
+.img-hero {
+  height: 768px;
+  background-image: url(../img/fliperama-tablet.jpg);
+}
+.hero h2{
+    font-size: 40px;
+}
+.hero h3{ 
+    font-size: 27px;
+}
+.button{
+    padding: 30px 70px;
+    font-size: 25px;
+}
+}
+
+@media screen and (min-width: 1440px) {
+    .site-header h2 {
+    font-size: 60px;
+}
+.site-header a{
+    padding: 50px;
+    font-size: 40px;
+}
+.img-hero {
+  height: 1440px;
+  background-image: url(../img/fliperama-tablet.jpg);
+}
+.hero h2{
+    font-size: 60px;
+}
+.hero h3{ 
+    font-size: 40px;
+}
+.button{
+
+    font-size: 40px;
+}
 }
