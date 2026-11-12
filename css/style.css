@@ -16,6 +16,31 @@
     justify-content: center;
     gap: 25px;
 }
-.site-header .button-header{
+.site-header a{
     margin: 5px;
+}
+.img-hero {
+  height: 400px;
+  width: 100%;
+  background-image: url(../img/fliperama-hero.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.hero{
+    color: aliceblue;
+    text-align: center;
+}
+.hero h2{
+    margin: 20px;
+    font-size: 25px;
+}
+.hero h3{ 
+    margin: 0 20px 50px;
+    font-size: 20px;
+}
+.button{
+    color: black;
+    background-color: rgb(6, 198, 236);
+    padding: 20px;
+    border-radius: 10px;
 }
