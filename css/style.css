@@ -44,6 +44,9 @@
     padding: 20px;
     border-radius: 10px;
 }
+.button:hover {
+    background-color: aliceblue;
+}
 
 @media screen and (min-width: 768px) {
     .site-header h2 {
@@ -69,5 +72,29 @@
 .button{
     padding: 30px 70px;
     font-size: 25px;
+}
+}
+
+@media screen and (min-width: 1440px) {
+    .site-header h2 {
+    font-size: 60px;
+}
+.site-header a{
+    padding: 50px;
+    font-size: 40px;
+}
+.img-hero {
+  height: 1440px;
+  background-image: url(../img/fliperama-tablet.jpg);
+}
+.hero h2{
+    font-size: 60px;
+}
+.hero h3{ 
+    font-size: 40px;
+}
+.button{
+
+    font-size: 40px;
 }
 }
