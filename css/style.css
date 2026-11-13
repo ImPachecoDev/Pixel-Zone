@@ -190,6 +190,11 @@
 .gallery-item div {
     min-height: 320px;
 }
+.cards{
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
 }
 
 @media screen and (min-width: 1440px) {
@@ -198,6 +203,9 @@
 }
 .gallery {
     margin: 50px;
+}
+.img-gallery{
+    margin-top: 50px;
 }
     .site-header h2 {
     font-size: 60px;
@@ -222,5 +230,13 @@
 .button{
 
     font-size: 40px;
+}
+.cards{
+    margin-top: 50px;
+    flex-wrap: balance;
+    gap: 100px;
+}
+.highlights{
+    margin: 50px;
 }
 }
