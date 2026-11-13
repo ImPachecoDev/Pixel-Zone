@@ -139,7 +139,6 @@
     gap: 20px;
 }
 .cards .card{
-    /* background-color: brown; */
     width: 300px;
     height: 300px;
     padding: 20px;
@@ -180,6 +179,10 @@
 .button{
     padding: 30px 70px;
     font-size: 25px;
+}
+.cards .card{
+    width: 400px;
+    height: 400px;
 }
 }
 
