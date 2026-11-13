@@ -51,9 +51,21 @@ h2 {
     color:rgb(6, 198, 236)
 }
 h3 {
+    font-size: 20px;
     color: rgb(6, 198, 236);
 }
 p{
     color: aliceblue;
     font-size: 20px;
+}
+@media screen and (min-width: 768px) {
+    h2 {
+    font-size: 40px;
+}
+h3{
+    font-size: 30px;
+}
+p{
+    font-size: 25px;
+}
 }

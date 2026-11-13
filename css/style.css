@@ -31,7 +31,6 @@
 }
 .hero h3{ 
     margin: 0 20px 50px;
-    font-size: 20px;
     color: aliceblue;
 }
 .button{
@@ -65,9 +64,6 @@
     display: flex;
     flex-direction: column;
     gap: 5px;
-}
-.gallery-item h3 {
-    font-size: 20px;
 }
 .gallery-item div {
     flex: 1;
@@ -139,9 +135,6 @@
 
 
 @media screen and (min-width: 768px) {
-    .site-header h2 {
-    font-size: 40px;
-}
 .site-header nav{
     gap: 100px;
 }
@@ -165,9 +158,22 @@
 }
 }
 
+@media screen and (min-width: 1024px) {
+.gallery-item div {
+    min-height: 320px;
+}
+}
+
 @media screen and (min-width: 1440px) {
+    .gallery-item div {
+    min-height: 440px;
+}
+.gallery {
+    margin: 50px;
+}
     .site-header h2 {
     font-size: 60px;
+    margin: 50px ;
 }
 .site-header a{
     padding: 50px;
@@ -179,9 +185,11 @@
 }
 .hero h2{
     font-size: 60px;
+    margin: 50px;
 }
 .hero h3{ 
     font-size: 40px;
+    margin: 50px;
 }
 .button{
 
