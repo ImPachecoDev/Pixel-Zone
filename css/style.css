@@ -132,7 +132,32 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
-
+.cards{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.cards .card{
+    /* background-color: brown; */
+    width: 300px;
+    height: 300px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 30px;
+}
+.card.one{
+    background: url(../img/retro-2-card.jpg);
+}
+.card.two{
+    background: url(../img/setup-card.jpg);
+}
+.card.three{
+    background: url(../img/infinity-card.jpg);
+}
+.card.four{
+    background: url(../img/comunidade-card.jpg);
+}
 
 @media screen and (min-width: 768px) {
 .site-header nav{

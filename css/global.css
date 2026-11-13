@@ -54,6 +54,11 @@ h3 {
     font-size: 20px;
     color: rgb(6, 198, 236);
 }
+h4{
+    color: rgb(6, 198, 236);
+    font-style: italic;
+    font-size: 20px;
+}
 p{
     color: aliceblue;
     font-size: 20px;
