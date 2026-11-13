@@ -132,7 +132,31 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
-
+.cards{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.cards .card{
+    width: 300px;
+    height: 300px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 30px;
+}
+.card.one{
+    background: url(../img/retro-2-card.jpg);
+}
+.card.two{
+    background: url(../img/setup-card.jpg);
+}
+.card.three{
+    background: url(../img/infinity-card.jpg);
+}
+.card.four{
+    background: url(../img/comunidade-card.jpg);
+}
 
 @media screen and (min-width: 768px) {
 .site-header nav{
@@ -156,11 +180,20 @@
     padding: 30px 70px;
     font-size: 25px;
 }
+.cards .card{
+    width: 400px;
+    height: 400px;
+}
 }
 
 @media screen and (min-width: 1024px) {
 .gallery-item div {
     min-height: 320px;
+}
+.cards{
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 }
 
@@ -170,6 +203,9 @@
 }
 .gallery {
     margin: 50px;
+}
+.img-gallery{
+    margin-top: 50px;
 }
     .site-header h2 {
     font-size: 60px;
@@ -194,5 +230,13 @@
 .button{
 
     font-size: 40px;
+}
+.cards{
+    margin-top: 50px;
+    flex-wrap: balance;
+    gap: 100px;
+}
+.highlights{
+    margin: 50px;
 }
 }
