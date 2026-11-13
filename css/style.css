@@ -2,19 +2,15 @@
 
 .site-header{
     background-color: black;
-    color:rgb(6, 198, 236)
 }
 .site-header .logo{
     width: 100%;
-}
-.site-header h2{
-    text-align: center;
-    font-size: 25px;
 }
 .site-header nav{
     display: flex;
     justify-content: center;
     gap: 25px;
+    color: aliceblue;
 }
 .site-header a{
     margin: 5px;
@@ -32,11 +28,10 @@
 }
 .hero h2{
     margin: 20px;
-    font-size: 25px;
 }
 .hero h3{ 
     margin: 0 20px 50px;
-    font-size: 20px;
+    color: aliceblue;
 }
 .button{
     color: black;
@@ -47,11 +42,99 @@
 .button:hover {
     background-color: aliceblue;
 }
+.gallery {
+    margin: 40px 10px;
+}
+.gallery h2 {
+    text-align: center;
+    padding: 20px;
+}
+.img-gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+    grid-template-areas: 
+        "img-1 img-1 img-2"
+        "img-3 img-3 img-2"
+        "img-5 img-4 img-4"
+        "img-5 img-6 img-7";
+}
+.gallery-item {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.gallery-item div {
+    flex: 1;
+    min-height: 150px;
+}
+.img-item-1 {
+    grid-area: img-1;
+}
+.img-item-2 {
+    grid-area: img-2;
+}
+.img-item-3 {
+    grid-area: img-3;
+}
+.img-item-4 {
+    grid-area: img-4;
+}
+.img-item-5 {
+    grid-area: img-5;
+}
+.img-item-6 {
+    grid-area: img-6;
+}
+.img-item-7 {
+    grid-area: img-7;
+}
+.img-1 {
+    background: url(../img/era-8-bits-mobile.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.img-2 {
+    background: url(../img/arcade-machine-mobile.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.img-3 {
+    background: url(../img/controller-mobile.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.img-4 {
+    background: url(../img/mechanical-keyboard-mobile.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.img-5 {
+    background: url(../img/headset-mobile.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.img-6 {
+    background: url(../img/handheld-console-mobile.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.img-7 {
+    background: url(../img/pixel-art-mobile.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 
 @media screen and (min-width: 768px) {
-    .site-header h2 {
-    font-size: 40px;
-}
 .site-header nav{
     gap: 100px;
 }
@@ -75,9 +158,22 @@
 }
 }
 
+@media screen and (min-width: 1024px) {
+.gallery-item div {
+    min-height: 320px;
+}
+}
+
 @media screen and (min-width: 1440px) {
+    .gallery-item div {
+    min-height: 440px;
+}
+.gallery {
+    margin: 50px;
+}
     .site-header h2 {
     font-size: 60px;
+    margin: 50px ;
 }
 .site-header a{
     padding: 50px;
@@ -89,9 +185,11 @@
 }
 .hero h2{
     font-size: 60px;
+    margin: 50px;
 }
 .hero h3{ 
     font-size: 40px;
+    margin: 50px;
 }
 .button{
 
