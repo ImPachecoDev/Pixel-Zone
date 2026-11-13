@@ -2,19 +2,15 @@
 
 .site-header{
     background-color: black;
-    color:rgb(6, 198, 236)
 }
 .site-header .logo{
     width: 100%;
-}
-.site-header h2{
-    text-align: center;
-    font-size: 25px;
 }
 .site-header nav{
     display: flex;
     justify-content: center;
     gap: 25px;
+    color: aliceblue;
 }
 .site-header a{
     margin: 5px;
@@ -32,11 +28,11 @@
 }
 .hero h2{
     margin: 20px;
-    font-size: 25px;
 }
 .hero h3{ 
     margin: 0 20px 50px;
     font-size: 20px;
+    color: aliceblue;
 }
 .button{
     color: black;
@@ -73,10 +69,6 @@
 .gallery-item h3 {
     font-size: 20px;
 }
-.gallery-item p {
-    font-size: 20px;
-}
-
 .gallery-item div {
     flex: 1;
     min-height: 150px;
