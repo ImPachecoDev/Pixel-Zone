@@ -162,7 +162,11 @@
     margin: 40px 10px;
 }
 .about .img-sobre{
-
+    background-image: url(../img/gamerover-about-mobile.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
 }
 .about p{
     font-style: italic;
