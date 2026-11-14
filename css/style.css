@@ -157,6 +157,16 @@
 .card.four{
     background: url(../img/comunidade-card.jpg);
 }
+.about{
+    text-align: center;
+    margin: 40px 10px;
+}
+.about .img-sobre{
+
+}
+.about p{
+    font-style: italic;
+}
 
 @media screen and (min-width: 768px) {
 .site-header nav{
