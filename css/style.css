@@ -198,6 +198,12 @@
     width: 400px;
     height: 400px;
 }
+.about .img-sobre{
+    background-image: url(../img/gameover-about.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 300px;
+}
 }
 
 @media screen and (min-width: 1024px) {
@@ -208,6 +214,10 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
+}
+.about .img-sobre{
+    background-image: url(../img/gameover-about.jpg);
+    height: 400px;
 }
 }
 
@@ -252,5 +262,9 @@
 }
 .highlights{
     margin: 50px;
+}
+.about .img-sobre{
+    background-image: url(../img/gameover-about.jpg);
+    height: 600px;
 }
 }
