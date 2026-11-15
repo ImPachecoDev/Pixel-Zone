@@ -11,7 +11,7 @@ Projeto de estudo desenvolvido com `HTML` e `CSS`, com foco em boas práticas de
 
 ## Tecnologias
 
-HMTL · CSS
+HTML · CSS
 
 ## Como executar
 
