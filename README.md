@@ -1,6 +1,7 @@
 # Pixel zone :rocket:
 
 ![Prévia do Pixel Zone](img/preview.gif)
+
 [Ver o site no ar](https://impachecodev.github.io/Pixel-Zone/)
 
 Projeto de estudo desenvolvido com `HTML` e `CSS`, com foco em boas práticas de uso do `CSS Grid`.
