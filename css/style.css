@@ -201,8 +201,11 @@ footer p {
     font-size: 20px;
   }
   .img-hero {
-    height: 768px;
     background-image: url(../img/fliperama-tablet.jpg);
+    min-height: 60vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
   }
   .hero h2 {
     font-size: 40px;
@@ -243,6 +246,12 @@ footer p {
     grid-template-columns: repeat(auto-fit, minmax(322px, 1fr));
     justify-items: center;
   }
+  .img-hero {
+    background-image: url(../img/fliperama-descktop.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
   .about .img-sobre {
     background-image: url(../img/gameover-about.jpg);
     height: 400px;
@@ -266,10 +275,6 @@ footer p {
   .menu {
     padding: 50px;
     font-size: 40px;
-  }
-  .img-hero {
-    height: 1440px;
-    background-image: url(../img/fliperama-tablet.jpg);
   }
   .hero h2 {
     font-size: 60px;
